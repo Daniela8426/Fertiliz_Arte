@@ -1,0 +1,120 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    background-image:linear-gradient(rgba(150, 150, 150, 0.87),rgba(255, 255, 255, 0.8)), url(../images/portada.jpeg );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+#topheader .navbar-nav li.active > a {
+	background-color: #333;
+	color: #fff;
+}
+
+#testimonial {
+    background: #f1f1f1;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+header {
+    margin-top: 85px;
+}
+
+footer {
+    background: url(../images/Fondo.jpg);
+    
+}
+.Container {
+    display: flex;
+}
+.Titulo{
+    
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.info button{
+    width: 100%;
+    padding: 10px;
+    margin: 60px 0px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #2196f3, #f8bbd0, #2196f3);
+    background-size: 200%;
+    font-size: 1rem;
+    color: #fff;
+    transition: .5s;
+    font-family: 'Jost', sans-serif;
+}
+
+.info button:hover{
+    background-position: right;
+}
+
+.info{
+   position: relative;
+   text-align: center;
+   padding: 15px;
+}
+
+.info h1{
+    font-family: 'Kaushan Script', cursive;
+}
+
+
+#menu-navegacion img{
+    width: 40%;
+    opacity: 1;
+}
+
+.nav-link{
+    color: #000000;
+    font-size: 25px ;
+    background-color:   rgba(243, 235, 255, 0.774) !important ;
+    padding: 20px  !important;
+    margin: 1px  !important;
+    font-family: 'Jost', sans-serif;
+}
+
+
+
+#menu-navegacion > ul {
+    list-style: none;
+}
+
+#menu-navegacion > ul > li > a{
+    margin: 1px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+    padding: 10px 100px;
+    background: rgba(243, 235, 255, 0.774);
+    font-family: 'Jost', sans-serif;
+}
+
+#menu-navegacion > ul > li > a:hover{
+    background-color:#2196f3;
+}
+
+.flex{
+    display: flex;
+}
+
+.card-body{
+    background: #f8bbd0a1;
+    border: 1px solid #f76e9e;
+}
+
+.form-group{
+    border: 1px solid #f76e9e;
+}
+
+.info-wrap{
+    background-color:#6db3ecc2;
+}
