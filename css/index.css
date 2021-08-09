@@ -80,10 +80,14 @@ body{
 #menu-navegacion > ul > li > a:hover{
     background-color:#2196f3;
 }
+
+.fas, .far{
+    font-size: 20px;
+}
 .row{
     text-align: center;
 }
-.row a{
+.menuDos .container .row a{
     background: #f8bbd0a1;
     padding: 20px;
     border: 1px solid #f76e9e;
@@ -93,8 +97,54 @@ body{
     color: #000;
     font-family: 'Jost', sans-serif;
     font-size: 1rem;
-
 }
+
+.menuDos .container .row a:hover{
+    background-color:#6db3ecc2;
+    border: 1px solid #2978b8c2;
+   
+}
+
+.servicios{
+    margin-top: 4%;
+    padding: 30px 50px;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+}
+
+.info-servicios {
+    padding: 40px 0px;
+}
+
+.card{
+    transition: 1s;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.card:hover{
+   transform: scale(1.1);
+}
+.card img{
+  height: 350px;
+}
+.card img:hover{
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.info-servi h2{
+    font-family: 'Kaushan Script', cursive;
+    margin-top: -60%;
+    font-size: 40px;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    text-align: center;
+}
+.h2-servi{
+    padding: 20px 0px;
+}
+
 footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -107,8 +157,47 @@ footer div{
 }
 .azul{
     background-color:#6db3ecc2;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    padding: 5% 20%;
+}
+.azul p{
+    font-size: 18px;
 }
 
 .rosa{
     background-color: #ffd2e2;
+    font-family: 'Jost', sans-serif;
+}
+
+.rosa h3{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.social_ali {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	padding: 0% 2%;
+}
+
+.social_ali a {
+    margin: 3px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000000;
+    background-color: #e49db6;
+	transition: .3s;
+}
+.social_ali a:hover {
+    color: #000000;
+    background: #ffffff;
 }
