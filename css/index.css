@@ -11,26 +11,34 @@ body{
 .flex{
     display: flex;
 }
-.cabeza img{
+.cabeza{
+    width: 100%;
+    height: 100vh;
+}
+.fondoIndex{
     background-size: cover;
     opacity: 0.3;
     width: 100%;
+    height: 100vh;
 }
-
+.logo{
+    position: relative;
+    margin-top: -700px;
+}
 
 .info{
-   position: relative;
-   margin-top: 52%;
-   text-align: center;
-   padding: 15px;
+    position:relative;
+    text-align: center;
+    padding: 15px;
+   
 }
 
-.info h1{
+h1{
     font-family: 'Kaushan Script', cursive;
 }
 
-.info button{
-    width: 13%;
+.boton{
+    width: 150px;
     padding: 10px;
     margin: 60px 0px;
     cursor: pointer;
@@ -44,29 +52,72 @@ body{
     font-family: 'Jost', sans-serif;
 }
 
-.info button:hover{
+.boton:hover{
     background-position: right;
 }
 
+.btnSalir {
+    cursor: pointer;
+    position: relative;
+    margin:  -10px -400px 0px 0px;
+}
+.btnSalir i{
+    font-size: 35px;
+    color: #000000;
+}
+
+.btnSalir i:hover{
+    color: #f76e9e;
+}
+
+.mostrar {
+    position: fixed;
+    text-align: center;
+    height: 150vh;
+    width: 100%;
+    margin-top: -700px;
+    flex-direction: column;
+    transition: all 1s ease;
+    background: linear-gradient(to right, #ee9ca7, #ffdde1);
+    z-index: 1;
+}
+
+.formLogin{
+    background-color: #ffffff;
+    width: 70vh;
+    height: 80vh;
+    margin: 80px 32%;
+    border: 2px solid #d4d4d4;
+    font-family: 'Jost', sans-serif;
+}
+
+.form-input{
+    margin: 0% 10%;
+    text-align: left;
+}
+.form-btn img{
+    margin-top: -5%;
+}
+.uno {
+    clip-path: circle(0% at 0% 0%);
+}
+
+.dos {
+    clip-path: circle(141.4% at 0 0);
+}
+
+
 #menu-navegacion{
     position:relative;
-    margin: -50% 35%;
-    text-align: center;
 }
+
 #menu-navegacion img{
-    width: 95%;
+    width: 40%;
     opacity: 1;
 }
-
-.navegacion{
-  margin-top: -45px;
-  margin-left: -240px; 
+#menu-navegacion > ul > li {
+    width: 260px;
 }
-
-#menu-navegacion > ul {
-    list-style: none;
-}
-
 #menu-navegacion > ul > li > a{
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -87,6 +138,9 @@ body{
 .row{
     text-align: center;
 }
+.menuDos{
+    margin: -20px 50px;
+}
 .menuDos .container .row a{
     background: #f8bbd0a1;
     padding: 20px;
@@ -106,14 +160,13 @@ body{
 }
 
 .servicios{
-    margin-top: 4%;
-    padding: 30px 50px;
+    margin: 100px 0px;
     text-align: center;
     font-family: 'Jost', sans-serif;
 }
 
 .info-servicios {
-    padding: 40px 0px;
+    margin: 20px 180px;
 }
 
 .card{
@@ -135,7 +188,7 @@ body{
 
 .info-servi h2{
     font-family: 'Kaushan Script', cursive;
-    margin-top: -60%;
+    margin-top: -50%;
     font-size: 40px;
     background-color: rgb(255, 255, 255);
     height: 100px;
@@ -201,3 +254,8 @@ footer div{
     color: #000000;
     background: #ffffff;
 }
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------------Registro */
+
