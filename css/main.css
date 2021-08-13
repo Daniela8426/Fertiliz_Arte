@@ -1,6 +1,6 @@
 body{
     font-family: 'Titillium Web', sans-serif;
-    background-image:linear-gradient(rgba(150, 150, 150, 0.87),rgba(255, 255, 255, 0.8)), url(../images/portada.jpeg );
+    background-image:linear-gradient(rgba(238, 230, 230, 0.87),rgba(255, 255, 255, 0.8)), url(../images/portada.jpeg );
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
