@@ -23,7 +23,8 @@ body{
 }
 .logo{
     position: relative;
-    margin-top: -700px;
+    margin-top: -650px;
+    padding: 20px;
 }
 
 .info{
@@ -128,10 +129,23 @@ h1{
     font-family: 'Jost', sans-serif;
 }
 
-#menu-navegacion > ul > li > a:hover{
+#menu-navegacion > ul > li:hover{
     background-color:#2196f3;
 }
 
+.menu a{
+    margin: 25px;
+}
+
+.menu > ul > li> a{
+    color: #000;
+    font-size: 1.1rem;
+}
+
+.menu > ul > li > a:hover{
+    background-color:#6db3ecc2;
+    color: #2c2b2b;
+}
 .fas, .far{
     font-size: 20px;
 }
