@@ -23,14 +23,15 @@ body{
 }
 .logo{
     position: relative;
-    margin-top: -650px;
-    padding: 20px;
+    margin-top: -760px;
+    padding: 60px;
 }
 
 .info{
     position:relative;
     text-align: center;
-    padding: 15px;
+    margin: 70px 15px 50px 15px;
+    font-family: 'Kaushan Script', cursive;
    
 }
 
@@ -60,10 +61,10 @@ h1{
 .btnSalir {
     cursor: pointer;
     position: relative;
-    margin:  -10px -400px 0px 0px;
+    margin:  -15px -450px 0px 0px;
 }
 .btnSalir i{
-    font-size: 35px;
+    font-size: 25px;
     color: #000000;
 }
 
@@ -71,27 +72,62 @@ h1{
     color: #f76e9e;
 }
 
+.btnSalirDos {
+    cursor: pointer;
+    margin:  -10px -700px 0px 40px;
+}
+.btnSalirDos i{
+    font-size: 25px;
+    color: #000000;
+}
+
+.btnSalirDos i:hover{
+    color: #37a3ce;
+}
+
 .mostrar {
     position: fixed;
     text-align: center;
     height: 150vh;
     width: 100%;
-    margin-top: -700px;
+    margin-top: -800px;
     flex-direction: column;
     transition: all 1s ease;
-    background: linear-gradient(to right, #ee9ca7, #ffdde1);
+    background: #f8bbd0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EF629F, #f8bbd0);  /* Chrome 10-25, Safari 5.1-6 */
+
+ 
     z-index: 1;
 }
 
+.mostrarDos {
+    position: fixed;
+    text-align: center;
+    height: 150vh;
+    width: 100%;
+    margin-top: -800px;
+    flex-direction: column;
+    transition: all 1s ease;
+    background: #9CECFB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,  #65C7F7, #8dd7e4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,  #65C7F7, #8dd7e4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+    z-index: 1;
+}
 .formLogin{
     background-color: #ffffff;
     width: 70vh;
     height: 80vh;
-    margin: 80px 32%;
+    margin: auto;
+    margin-top: 8.5%;
     border: 2px solid #d4d4d4;
     font-family: 'Jost', sans-serif;
 }
-
+.formLogin h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3rem;
+}
 .form-input{
     margin: 0% 10%;
     text-align: left;
@@ -108,8 +144,170 @@ h1{
 }
 
 
+.tres {
+    clip-path: circle(0.3% at 100% 0);
+}
+
+.cuatro {
+    clip-path: circle(141.4% at 100% 0);
+}
+
+.Registro{
+    display: grid;
+	grid-template-columns: 1fr 1fr;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 3%;
+    width: 80%;
+    height: 90vh;
+}
+.imgRegistro{
+    width: 100%;
+    height: 85.5vh;
+}
+.formRegistro {
+    background-color: #ffffff;
+    width: 100%;
+    display: grid;
+	grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+    font-family: 'Jost', sans-serif;  
+}
+
+.formRegistro__label {
+	font-weight: 700;
+	cursor: pointer;
+    float: left;
+}
+
+.formRegistro__grupo-input {
+	position: relative;
+    
+}
+
+.formRegistro__input {
+	width: 100%;
+	background: #fff;
+	border: 3px solid transparent;
+	border-radius: 3px;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 40px 0 10px;
+	transition: .3s ease all;
+    border:2px solid #d1d1d1;
+}
+
+.formRegistro__input:focus {
+	border: 3px solid #0075FF;
+	outline: none;
+	box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
+}
+
+.formRegistro__input-error {
+	font-size: 12px;
+	margin-bottom: 0;
+	display: none;
+}
+
+.formRegistro__input-error-activo {
+	display: block;
+}
+
+.formRegistro__validacion-estado {
+	position: absolute;
+	right: 10px;
+	bottom: 15px;
+	z-index: 100;
+	font-size: 16px;
+	opacity: 0;
+}
+
+.formRegistro__titulo{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 4rem;
+    margin-top: -10%;
+}
+.formRegistro__mensaje,
+.formRegistro__grupo-btn-enviar,
+.formRegistro__titulo {
+    grid-column: span 2;
+}
+
+.formRegistro__mensaje {
+	height: 45px;
+	line-height: 45px;
+	background: #68a5ebc0;
+	padding: 0 15px;
+	border-radius: 3px;
+	display: none;
+}
+
+.formRegistro__mensaje-activo {
+	display: block;
+}
+
+.formRegistro__mensaje p {
+	margin: 0;
+}
+
+.formRegistro__grupo-btn-enviar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.formRegistro__btn {
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #2196f3, #f8bbd0, #2196f3);
+    background-size: 200%;
+    font-size: 1rem;
+    color: #fff;
+    transition: .5s;
+    font-family: 'Jost', sans-serif;
+}
+
+.formRegistro__btn:hover {
+    background-position: right;
+}
+
+.formRegistro__mensaje-exito {
+	font-size: 14px;
+	color: #119200;
+	display: none;
+}
+
+.formRegistro__mensaje-exito-activo {
+	display: block;
+}
+
+/* ----- -----  Estilos para Validacion ----- ----- */
+.formRegistro__grupo-correcto .formRegistro__validacion-estado {
+	color: #3eb648;
+	opacity: 1;
+}
+
+.formRegistro__grupo-incorrecto .formRegistro__label {
+	color: #b34747;
+}
+
+.formRegistro__grupo-incorrecto .formRegistro__validacion-estado {
+	color: #af4c4c;
+	opacity: 1;
+}
+
+.formRegistro__grupo-incorrecto .formRegistro__input {
+	border: 2px solid #af4c4c;
+}
+
+
 #menu-navegacion{
     position:relative;
+    margin-top: -2%;
 }
 
 #menu-navegacion img{
@@ -117,14 +315,14 @@ h1{
     opacity: 1;
 }
 #menu-navegacion > ul > li {
-    width: 260px;
+    width: 20%;
 }
 #menu-navegacion > ul > li > a{
     color: rgb(0, 0, 0);
     text-decoration: none;
     display: block;
     font-size: 15px;
-    padding: 5px 80px;
+    padding: 15px 5px;
     background: rgba(243, 235, 255, 0.774);
     font-family: 'Jost', sans-serif;
 }
@@ -133,9 +331,6 @@ h1{
     background-color:#2196f3;
 }
 
-.menu a{
-    margin: 25px;
-}
 
 .menu > ul > li> a{
     color: #000;
@@ -146,6 +341,7 @@ h1{
     background-color:#6db3ecc2;
     color: #2c2b2b;
 }
+
 .fas, .far{
     font-size: 20px;
 }
@@ -203,7 +399,7 @@ h1{
 .info-servi h2{
     font-family: 'Kaushan Script', cursive;
     margin-top: -50%;
-    font-size: 40px;
+    font-size: 200%;
     background-color: rgb(255, 255, 255);
     height: 100px;
     text-align: center;
@@ -212,9 +408,11 @@ h1{
     padding: 20px 0px;
 }
 
-footer{
+
+/* Footer */
+.pie{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
 }
 
 footer div{
