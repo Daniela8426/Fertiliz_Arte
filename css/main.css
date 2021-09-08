@@ -118,3 +118,17 @@ footer {
 .info-wrap{
     background-color:#6db3ecc2;
 }
+
+/* ------------------------- */
+.menu a{
+    margin: 25px;
+}
+
+.menu > ul > li> a{
+    color: #000;
+    font-size: 1.1rem;
+}
+
+.menu > ul > li:hover{
+    background-color:#6db3ecc2;
+}
