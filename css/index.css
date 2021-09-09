@@ -235,11 +235,6 @@ h1{
 }
 
 .formRegistro__mensaje {
-	height: 45px;
-	line-height: 45px;
-	background: #68a5ebc0;
-	padding: 0 15px;
-	border-radius: 3px;
 	display: none;
 }
 
@@ -332,16 +327,6 @@ h1{
 }
 
 
-.menu > ul > li> a{
-    color: #000;
-    font-size: 1.1rem;
-}
-
-.menu > ul > li > a:hover{
-    background-color:#6db3ecc2;
-    color: #2c2b2b;
-}
-
 .fas, .far{
     font-size: 20px;
 }
@@ -379,13 +364,13 @@ h1{
     margin: 20px 180px;
 }
 
-.card{
+.zoom{
     transition: 1s;
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
 
-.card:hover{
+.zoom:hover{
    transform: scale(1.1);
 }
 .card img{

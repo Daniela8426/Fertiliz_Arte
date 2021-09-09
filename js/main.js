@@ -112,17 +112,23 @@ formRegistro.addEventListener('submit', (e) => {
 	const terminos = document.getElementById('terminos');
 	if(campos.nombre && campos.password && campos.correo && campos.telefono ){
 		formRegistro.reset();
+		document.getElementById('formRegistro__mensaje').classList.remove('formRegistro__mensaje-activo');
+
 
 		document.getElementById('formRegistro__mensaje-exito').classList.add('formRegistro__mensaje-exito-activo');
 		setTimeout(() => {
 			document.getElementById('formRegistro__mensaje-exito').classList.remove('formRegistro__mensaje-exito-activo');
 		}, 5000);
-
+		
 		document.querySelectorAll('.formRegistro__grupo-correcto').forEach((icono) => {
 			icono.classList.remove('formRegistro__grupo-correcto');
+
 		});
 	} else {
 		document.getElementById('formRegistro__mensaje').classList.add('formRegistro__mensaje-activo');
+		setTimeout(() => {
+			document.getElementById('formRegistro__mensaje').classList.remove('formRegistro__mensaje-activo');
+		}, 5000);
 	}
 });
 
