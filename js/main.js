@@ -30,7 +30,7 @@ const inputs = document.querySelectorAll('#formRegistro input');
 
 const expresiones = {
 	nombre: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, 
-	password: /^.{6}$/, 
+	password: /^.{6,10}$/, 
 	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
 	telefono: /^\d{10}$/
 }
