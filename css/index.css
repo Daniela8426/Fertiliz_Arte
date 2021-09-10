@@ -60,6 +60,10 @@ h1{
 .boton a{
     color: white;
 }
+.boton a:hover{
+    color: white;
+    text-decoration: none;
+}
 .btnSalir {
     cursor: pointer;
     position: relative;
@@ -381,6 +385,9 @@ h1{
 .card img:hover{
     opacity: 0.7;
     z-index: -1;
+}
+.link:hover{
+    text-decoration: none;
 }
 
 .info-servi h2{
