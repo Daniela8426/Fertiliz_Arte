@@ -132,11 +132,11 @@ formRegistro.addEventListener('submit', (e) => {
 	}
 });
 
-//efecto escritura
+//efecto escritura index
 var typed = new Typed('.typed', {
 	strings: [
 		'<i>Te ayudamos a cumplir tu sueño de ser padres</i>',
-		'<i>Los mejores en tratamientos de fertilidad</i>',
+		'<i>Somos los mejores en tratamientos de fertilidad</i>',
 	],
 
 	stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
@@ -152,3 +152,4 @@ var typed = new Typed('.typed', {
 	cursorChar: '.', // Caracter para el cursor
 	contentType: 'html', // 'html' o 'null' para texto sin formato
 });
+
