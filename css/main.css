@@ -1,4 +1,4 @@
-body{
+.cara{
     font-family: 'Titillium Web', sans-serif;
     background-image:linear-gradient(rgba(238, 230, 230, 0.87),rgba(255, 255, 255, 0.8)), url(../images/portada.jpeg );
     background-repeat: no-repeat;
@@ -22,6 +22,30 @@ body{
 
 header {
     margin-top: 85px;
+}
+
+.menu {
+    position: relative;
+    border: 10px solid rgb(255, 255, 255);
+    font-family: 'Jost', sans-serif;
+}
+ul{
+    background-color: rgba(255, 255, 255, 0.308);
+    padding: 12px 0px 0px 0px;
+}
+.menu > ul > li{
+    margin: 0px 30px;
+    
+}
+
+.menu > ul > li> a{
+    color: #000;
+    font-size: 1.2rem;
+}
+
+.menu > ul > li > a:hover{
+    background-color:#6db3ecc2;
+    color: #2c2b2b;
 }
 
 footer {
@@ -67,41 +91,6 @@ footer {
 }
 
 
-#menu-navegacion img{
-    width: 40%;
-    opacity: 1;
-}
-
-.nav-link{
-    color: #000000;
-    font-size: 25px ;
-    background-color:   rgba(243, 235, 255, 0.774) !important ;
-    padding: 20px  !important;
-    margin: 1px  !important;
-    font-family: 'Jost', sans-serif;
-}
-
-
-
-#menu-navegacion > ul {
-    list-style: none;
-}
-
-#menu-navegacion > ul > li > a{
-    margin: 1px;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    display: block;
-    font-size: 25px;
-    padding: 10px 100px;
-    background: rgba(243, 235, 255, 0.774);
-    font-family: 'Jost', sans-serif;
-}
-
-#menu-navegacion > ul > li > a:hover{
-    background-color:#2196f3;
-}
-
 .flex{
     display: flex;
 }
@@ -120,18 +109,4 @@ footer {
 .info-wrap{
     background-color:#6db3ecc2;
     height: 600px;
-}
-
-/* ------------------------- */
-.menu a{
-    margin: 25px;
-}
-
-.menu > ul > li> a{
-    color: #000;
-    font-size: 1.1rem;
-}
-
-.menu > ul > li:hover{
-    background-color:#6db3ecc2;
 }

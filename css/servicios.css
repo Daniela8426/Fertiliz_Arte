@@ -1,19 +1,27 @@
+.cara{
+    background-image:linear-gradient(rgba(238, 230, 230, 0.87),rgba(255, 255, 255, 0.8)), url(../images/portada.jpeg );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .menu {
-    background-color:#fbedfc;
+    position: relative;
     border: 10px solid rgb(255, 255, 255);
+    font-family: 'Jost', sans-serif;
 }
 ul{
-    display: block;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.308);
     padding: 12px 0px 0px 0px;
 }
 .menu > ul > li{
     margin: 0px 30px;
+    
 }
 
 .menu > ul > li> a{
     color: #000;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .menu > ul > li > a:hover{
@@ -23,20 +31,27 @@ ul{
 
 .portada{
     text-align: center;
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Kaushan Script';
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 10% 0px 0px 0px;
-    background-color:#fbedfc;
+    padding: 9% 0px 0px ;
     border: 10px solid rgb(255, 255, 255);
 }
 .portada .textoServi h1{
     font-size: 5rem;
-    padding: 10px 0px 0px 0px;
+    padding: 30px 0px 0px 60px;
 }
+
+.portada .textoServi h1 h2{
+    font-family: 'Jost', sans-serif;
+    font-size: 2rem;
+}
+
 .portada img{
-    width: 80%;
-    height: 50vh;
+    margin-top: -10%;
+    margin-left: -5%;
+    width: 95%;
+    height: 60vh;
 }
 
 .titulos{
