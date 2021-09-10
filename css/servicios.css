@@ -1,0 +1,61 @@
+.menu {
+    background-color:#fbedfc;
+    border: 10px solid rgb(255, 255, 255);
+}
+ul{
+    display: block;
+    background-color: white;
+    padding: 12px 0px 0px 0px;
+}
+.menu > ul > li{
+    margin: 0px 30px;
+}
+
+.menu > ul > li> a{
+    color: #000;
+    font-size: 1.1rem;
+}
+
+.menu > ul > li > a:hover{
+    background-color:#6db3ecc2;
+    color: #2c2b2b;
+}
+
+.portada{
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10% 0px 0px 0px;
+    background-color:#fbedfc;
+    border: 10px solid rgb(255, 255, 255);
+}
+.portada .textoServi h1{
+    font-size: 5rem;
+    padding: 10px 0px 0px 0px;
+}
+.portada img{
+    width: 80%;
+    height: 50vh;
+}
+
+.titulos{
+    font-family: 'Kaushan Script', cursive;
+    padding: 0px 30px 30px 30px;
+    font-size: 3rem;
+}
+
+.two{
+    background: rgba(0, 132, 255, 0.205);
+    padding: 50px;
+    
+}
+
+.servi{
+    padding: 5%;
+}
+
+.par{
+    font-family: 'Jost', sans-serif;
+    padding: 20px 0px 0px 0px;
+}
