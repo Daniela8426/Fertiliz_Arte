@@ -1,68 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
+
+    <!-- Iconos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <!--Croll reveal-->
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
-    <script src=" https://unpkg.com/scrollreveal "> </script>
-    <!--Custom css-->
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/main.css">
+
     <title>Contactanos</title>
 </head>
 
 <body>
-
-    <nav id="menu-navegacion">
-        <div class="container">
-            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-                <img src="../images/fertiliz-arte.png" alt="logo">
-                <ul class="nav nav-pills">
-                <li class="nav-item"><a href="../index.html" class="nav-link active" aria-current="page">Inicio</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Registro</a></li>
-                <li class="nav-item"><a href="contacto.html" class="nav-link">Contactos</a></li>
-                <li class="nav-item"><a href="Planes.html" class="nav-link">Planes</a></li>
-            </ul>
-                
-            </header>
-        </div>
-    </nav>
+    <div class="menu text-center bg-light">
+        <a href=""><img src="../images/fertiliz-arte.png" alt="logo" width="300px"></a>
+        <ul class="nav justify-content-center" style="background-color: transparent;">
+            <li class="nav-item" id="login">
+                <a href="../index.html" class="nav-link">Inicio <i class="fas fa-home"></i></a>
+            </li>
+            <li class="nav-item">
+                <a href="servicios.html" class="nav-link">Servicios <i class="fas fa-hand-holding-heart"></i></a>
+            </li>
+            <li class="nav-item">
+                <a href="alianzas.html" class="nav-link">Alianzas<i class="fas fa-file-contract"></i></a>
+            </li>
+            <li class="nav-item">
+                <a href="contacto.html" class="nav-link">Contáctenos <i class="fas fa-address-book"></i></a>
+            </li>
+        </ul>
+    </div>
 
     <section>
+        <h1 class="text-center mt-5 mb-4">Nuestros Aliados</h1>
+        
         <div class="container">
-            <div class="info row justify-content-center ">
-                <div class="col-md-6 text-center mb-5">
-                    <h1 class="heading-section">Contactanos</h1>
-                </div>
-            </div>
-            <div class="row justify-content-right">
+            <div class="row justify-content-center align-items-center">
                 <div class="col-md-10">
                     <div class="wrapper">
                         <div class="row no-gutters">
                             <div class="col-lg-8 col-md-7 order-md-last d-flex">
                                 <div class="contact-wrap w-100 p-md-5 p-4">
-                                    <h3 class="mb-4">¿Cómo podemos ayudarte?</h3>
-                                    <form class="card ">
-                                        <div class="card-body info">
+                                    
+                                    <form class="card">
+                                        <h3 class="mt-4">¿Cómo podemos ayudarte?</h3>
+                                        <div class="card-body info mt-2">
                                             <div class="form-group">
-                                                <input type="text" placeholder="Name" class="form-control">
+                                                <input type="text" placeholder="Nombre" class="form-control">
                                             </div>
                                             <div class="form-group">
-                                                <input type="email" placeholder="Email" class="form-control">
+                                                <input type="email" placeholder="Correo electrónico"
+                                                    class="form-control">
                                             </div>
                                             <div class="form-group">
                                                 <input type="celular" placeholder="Celular" class="form-control">
                                             </div>
                                             <div class="form-group">
-                                                <textarea rows="10" cols="30" placeholder="message"
+                                                <textarea rows="10" cols="30" placeholder="Mensaje"
                                                     class="form-control"></textarea>
                                             </div>
                                             <button type="submit" class="btn btn-outline-secondary btn-block">Enviar
@@ -71,13 +78,11 @@
                                     </form>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-5 d-flex ">
+                            <div class="col-lg-4 col-md-5 d-flex align-items-center">
                                 <div class="info-wrap  w-150 p-md-5 p-4">
-                                    <p class="mb-4">Contacta con nosotros por diferentes medios</p>
+                                    <p class="mb-4">Comunicate con nosotros por estos medios</p>
                                     <div class="dbox w-100 d-flex align-items-start">
-                                        <div class="icon d-flex align-items-center justify-content-center">
-                                            <span class="fa fa-map-marker"></span>
-                                        </div>
+
                                         <div class="col-md-3">
                                             <div class="header-content-left">
                                                 <img src="../images/Dir.jpg"
@@ -85,13 +90,10 @@
                                             </div>
                                         </div>
                                         <div class="text pl-3">
-                                            <p><span>Direccion:</span> Ibague Tolima</p>
+                                            <p><span>Dirección:</span>Ibagué-Tolima</p>
                                         </div>
                                     </div>
                                     <div class="dbox w-100 d-flex align-items-center">
-                                        <div class="icon d-flex align-items-center justify-content-center">
-                                            <span class="fa fa-phone"></span>
-                                        </div>
                                         <div class="col-md-3">
                                             <div class="header-content-left">
                                                 <img src="../images/Tel.jpg"
@@ -99,13 +101,10 @@
                                             </div>
                                         </div>
                                         <div class="text pl-3">
-                                            <p><span>Telefonos:</span> <a>+ xxx xxx xxx</a></p>
+                                            <p><span>Teléfonos:</span> <a>+ xxx xxx xxx</a></p>
                                         </div>
                                     </div>
                                     <div class="dbox w-100 d-flex align-items-center">
-                                        <div class="icon d-flex align-items-center justify-content-center">
-                                            <span class="fa fa-paper-plane"></span>
-                                        </div>
                                         <div class="col-md-3">
                                             <div class="header-content-left">
                                                 <img src="../images/Email1.png"
@@ -118,9 +117,6 @@
                                     </div>
                                     <p class="mb-4"><br>Redes Sociales</p>
                                     <div class="dbox w-100 d-flex align-items-center">
-                                        <div class="icon d-flex align-items-center justify-content-center">
-                                            <span class="fa fa-globe"></span>
-                                        </div>
                                         <div class="col-md-3">
                                             <div class="header-content-left">
                                                 <a href="#"><img src="../images/Fac1.jpg" href="#"
@@ -148,8 +144,24 @@
             </div>
         </div>
     </section>
+
+    <footer class="pie">
+        <div class="azul">
+            <p>" Somos especialistas en reproducción asistida, solicita información sin compromiso. "</p>
+            <strong>©2021 - Fertiliz Arte</strong>
+        </div>
+        <div class="rosa">
+            <h3>Nuestras Redes Sociales</h3>
+            <div class="social_ali">
+                <a target="_blanck" href="https://github.com/Daniela8426/Fertiliz_Arte"><i
+                        class="fab fa-github"></i></a>
+                <a target="_blanck" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a target="_blanck" href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
     <!--Boostrap Scripts-->
-    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -162,7 +174,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
         </script>
-    <!--scripst-->s
+    <!--scripts-->
 </body>
 
 </html>
