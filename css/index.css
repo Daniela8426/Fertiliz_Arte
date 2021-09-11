@@ -123,10 +123,10 @@ h1{
 }
 .formLogin{
     background-color: #ffffff;
-    width: 70vh;
-    height: 80vh;
+    width: 80vh;
+    height: 85vh;
     margin: auto;
-    margin-top: 8.5%;
+    margin-top: 16%;
     border: 2px solid #d4d4d4;
     font-family: 'Jost', sans-serif;
 }
@@ -163,7 +163,7 @@ h1{
 	grid-template-columns: 1fr 1fr;
     background-color: #ffffff;
     padding: 20px;
-    margin-top: 3%;
+    margin-top: 10%;
     width: 80%;
     height: 90vh;
 }
